@@ -1,0 +1,12 @@
+<view class="container">
+  <input placeholder="请输入姓名" bindinput="handleEnterName" value="{{name}}"></input>
+  <input placeholder="请输入年龄" bindinput="handleEnterAge" value="{{age}}"></input>
+  <button type="primary" bindtap="handleSave">保存</button>
+  <button type="primary" bindtap="handleQuery">查询</button>
+  <input placeholder="请输入要删除的id" bindinput="handleEnterId" value="{{id}}"></input>
+  <button type="primary" bindtap="handleDelete">删除</button>
+  <input placeholder="请输入要修改的id" bindinput="handleChangeId" value="{{cId}}"></input>
+  <input placeholder="请输入姓名" bindinput="handleChangeName" value="{{cName}}"></input>
+  <input placeholder="请输入年龄" bindinput="handleChangeAge" value="{{cAge}}"></input>
+  <button type="primary" bindtap="handleUpdate">编辑</button>
+</view>

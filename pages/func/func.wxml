@@ -1,0 +1,3 @@
+<button bindtap='getInfo'>获取信息</button>
+<button bindtap='getDataBase'>查询数据库数据</button>
+<button bindtap='addDataBase'>添加数据到数据库</button>
